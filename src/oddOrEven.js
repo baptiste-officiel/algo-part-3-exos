@@ -5,7 +5,12 @@
  * Voir le fichier de tests associé (spec/oddOrEvenSpec.js)
  */
 function oddOrEven(number) {
-    // CODE HERE
+    // CODE HER
+    if(number % 2 ===0){
+        return "Even";
+    } else {
+        return "Odd";
+    }
 }
 
 export { oddOrEven };
