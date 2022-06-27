@@ -11,6 +11,16 @@
  */
 function song(km) {
     // CODE HERE
+
+    let nbkm = 0;
+    let lyrics = "";
+
+    while (nbkm < km) {
+         lyrics += (nbkm + 1) + " km à pied, ça use, ça use, ça use,\n"
+         + (nbkm + 1) + " km à pied, ça use les souliers\n";
+         ++nbkm;
+    }
+    return lyrics;  
 }
 
 export { song };

@@ -9,6 +9,21 @@
  */
 function fizzBuzz(min, max) {
     // CODE HERE
+    
+
+    while (min < max){
+        min =+ min + 1;
+
+        if (min % 5 === 0 && min % 3 === 0) {
+            return "FizzBuzz";
+        } else if (min % 5 === 0){
+            return "Buzz";
+        } else if (min % 3 === 0) {
+            return "Fizz";
+        } else {
+            return min;
+        }
+    }
 }
 
 export { fizzBuzz };
